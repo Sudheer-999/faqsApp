@@ -1,0 +1,40 @@
+.question-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-item {
+  border: 1px solid #d7dae6;
+  border-radius: 25px;
+  padding: 30px;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+.question-text {
+  font-size: 22px;
+  font-weight: 500;
+  color: #52606d;
+}
+
+.line {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #9aa5b1;
+  opacity: 0.6;
+}
+
+.btn {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.answer-text {
+  color: #9aa5b1;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
